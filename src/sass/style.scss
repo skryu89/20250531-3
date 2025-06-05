@@ -1,3 +1,7 @@
+//課題
+//2. $snsClass内にある配列の数だけクラスを作り、$mapのkeyに対応したvalueの値をbackground-color
+//に反映させてください。
+
 @import 'common';
 .inner {
  width: 100%;
@@ -24,7 +28,6 @@
     box-shadow: 0 0 0 #fff;
   }
 }
-
 
 $map: (
  "line": #00B900,
