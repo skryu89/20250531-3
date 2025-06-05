@@ -1,0 +1,45 @@
+@import 'common';
+.inner {
+ width: 100%;
+ max-width: 1000px;
+ margin: 0 auto;
+ padding: 0 10px;
+}
+@mixin btn($color) {
+ display: block;
+ padding: 20px 30px;
+ margin: 20px;
+ color: #fff;
+ border-radius: 20px;
+ font-size: 1em;
+ box-shadow: 0 5px 0 #fff;
+ cursor: pointer;
+ background-color: $color;
+ text-decoration: none;
+ text-align: center;
+ transition: .3s;
+ &:hover {
+    color: #fff;
+    transform: translateY(5px);
+    box-shadow: 0 0 0 #fff;
+  }
+}
+
+
+$map: (
+ "line": #00B900,
+ "instagram": #CF2E92,
+ "facebook": #71d0f2,
+ "twitter": #1DA1F2,
+ );
+$snsClass:"line","instagram","facebook","twitter";
+
+
+@each $name in $snsClass {
+  .content__sns__btn.is-#{$name} {
+    @include btn(map-get($map, $name));
+  }
+}
+
+//このボタンのタグを選んだ理由
+//クリックすると、プッシュしている感じがボタンっぽくて良いなと思ったから。

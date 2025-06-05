@@ -1,0 +1,93 @@
+.inner {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.inner {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.content__sns__btn.is-line {
+  display: block;
+  padding: 20px 30px;
+  margin: 20px;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 1em;
+  box-shadow: 0 5px 0 #fff;
+  cursor: pointer;
+  background-color: #00B900;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.3s;
+}
+.content__sns__btn.is-line:hover {
+  color: #fff;
+  transform: translateY(5px);
+  box-shadow: 0 0 0 #fff;
+}
+
+.content__sns__btn.is-instagram {
+  display: block;
+  padding: 20px 30px;
+  margin: 20px;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 1em;
+  box-shadow: 0 5px 0 #fff;
+  cursor: pointer;
+  background-color: #CF2E92;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.3s;
+}
+.content__sns__btn.is-instagram:hover {
+  color: #fff;
+  transform: translateY(5px);
+  box-shadow: 0 0 0 #fff;
+}
+
+.content__sns__btn.is-facebook {
+  display: block;
+  padding: 20px 30px;
+  margin: 20px;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 1em;
+  box-shadow: 0 5px 0 #fff;
+  cursor: pointer;
+  background-color: #71d0f2;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.3s;
+}
+.content__sns__btn.is-facebook:hover {
+  color: #fff;
+  transform: translateY(5px);
+  box-shadow: 0 0 0 #fff;
+}
+
+.content__sns__btn.is-twitter {
+  display: block;
+  padding: 20px 30px;
+  margin: 20px;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 1em;
+  box-shadow: 0 5px 0 #fff;
+  cursor: pointer;
+  background-color: #1DA1F2;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.3s;
+}
+.content__sns__btn.is-twitter:hover {
+  color: #fff;
+  transform: translateY(5px);
+  box-shadow: 0 0 0 #fff;
+}
